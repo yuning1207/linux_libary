@@ -1,3 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/* header */
+
 #hea {
     width: 100%;
     background-color: #f5f5f5;
@@ -40,7 +52,7 @@
 
 #index_input {
     display: inline-block;
-    width: 600px;
+    width: 40%;
 }
 
 #index_input input:focus {
@@ -67,16 +79,133 @@
 #index_sign:hover {
     text-decoration: none;
     background-color: #F3F3F3;
-    cursor: pointer;
     border-color: #009a61;
     border-radius: 4px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
+
+/* 中间 */
+
+#main {
+    width: 78%;
+    margin: 20px auto;
+}
+
+#tag {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    opacity: 0.8;
+    background-color: #F3F3F3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#tag a {
+    color: #666;
+    padding: 8px 5px;
+}
+
+#tag a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+#tag #tag_all {
+    color: #028654;
+}
+
+#tag #tag_all:hover {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+
+/* 中间内容 */
+
+#left {
+    padding: 0;
+    color: black;
+}
+
+#left .rows {
+    height: auto;
+    padding: 10px 10px;
+    opacity: 0.8;
+    background-color: #F3F3F3;
+    margin: 0;
+    margin-bottom: 15px;
+    border-left: 5px solid transparent;
+}
+
+#left .rows:hover {
+    border-left-color: #009a61;
+}
+
+#left .book_img {
+    padding-right: 0;
+}
+
+#left img {
+    width: 120px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+#left .book_info {
+    margin: 0;
+    padding-left: 0;
+}
+
+#left .book_info p {
+    width: auto;
+}
+
+#left .book_info p:nth-of-type(1) {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#left .book_info p:nth-of-type(2) {
+    text-indent: 2em;
+    font-size: 15px;
+    color: black;
+}
+
+#left .book_info p:nth-of-type(3) {
+    text-align: right;
+    margin-top: 30px;
+}
+
+#left .book_info p:nth-of-type(3) span {
+    margin-left: 20px;
+}
+
+#left .book_info p:nth-of-type(3) span i {
+    margin-right: 8px;
+}
+
+
+/* 分页 */
+
+#left #index_pingination {
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#left #index_pingination .pa_in a {
+    background-color: #ddd;
+}
+
+
+/* footer */
+
 footer {
     background-color: #f5f5f5;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
@@ -97,16 +226,28 @@ footer a:hover {
 }
 
 footer img {
-    width: 150px;
-    height: 150px;
+    width: 50%;
+}
+
+footer .rows {
+    padding: 20px 0 0 0;
 }
 
 footer .rows div {
-    margin: 20px 0;
     padding: 0 0 0 70px;
-    height: 220px;
+    height: 312px;
 }
 
 footer .rows div p i {
     margin-right: 10px;
+}
+
+footer #foot {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+footer #foot p {
+    text-align: center;
+    color: #c2c2c2;
 }
