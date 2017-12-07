@@ -41,24 +41,31 @@ a {
     padding: 6px 12px;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
     color: #555;
     margin-left: 50px;
-    width: 50%;
+    width: 40%;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     transition: width 0.25s ease-in-out;
     -webkit-transition: width 0.25s ease-in-out;
+    float: left;
+}
+
+#index_input button {
+    display: inline;
+    background-color: #009a61;
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 #index_input {
     display: inline-block;
-    width: 40%;
+    width: 50%;
 }
 
 #index_input input:focus {
-    width: 100%;
-    box-shadow: 0;
-    border: 0;
+    width: 75%;
+    outline: 0;
 }
 
 #index_sign {
@@ -250,4 +257,33 @@ footer #foot {
 footer #foot p {
     text-align: center;
     color: #c2c2c2;
+}
+
+@media screen and (max-width:768px) {
+    #hea img {
+        height: 50px;
+        width: 50px;
+        margin: 15px;
+    }
+    #head {
+        font-size: 20px;
+    }
+    #index_input {
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    #index_input input:focus {
+        width: 63%;
+    }
+    #index_sign {
+        right: 5%;
+        top: 30%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    footer .rows div {
+        padding: 0 0 0 10px;
+    }
 }
