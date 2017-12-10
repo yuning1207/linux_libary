@@ -114,3 +114,24 @@
     color: #333;
     text-indent: 2em;
 }
+
+@media screen and (max-width:1024px) {
+    #index1_input {
+        display: block;
+        width: 85%;
+    }
+    #index1_sign {
+        position: absolute;
+        right: 5%;
+        bottom: 4%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #index1_input a {
+        display: block;
+    }
+    #index1_input input:focus {
+        width: 65%;
+    }
+}
