@@ -11,6 +11,7 @@
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/index1.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,10 +19,13 @@
         <div id="hea">
             <img id="index_head" src="img/index_head.png" />
             <a id="head" href="index.html">XiyouLinux Group 图书借阅</a>
-            <div id="index_input">
+            <div id="index1_input">
                 <input type="text" placeholder="搜索书名/作者/归属者">
+                <button class="btn btn-link">提交</button>
+                <a><i class="fa fa-file-text fa-fw"></i>我的书籍</a>
+                <a><i class="fa fa-tags fa-fw"></i>上传数据</a>
             </div>
-            <a id="index_sign">立即登录</a>
+            <a id="index1_sign">退出登录</a>
         </div>
     </header>
     <div id="main">
@@ -40,6 +44,63 @@
             <a>教科书</a>
             <a id="tag_all">全部标签</a>
         </div>
+        <div class="rows">
+            <div id="left1" class="col-xs-12 col-md-8">
+                <div class="rows">
+                    <div class="col-xs-12 col-md-3 book_img">
+                        <img src="img/book0.jpeg">
+                    </div>
+                    <div class="book_info col-xs-12 col-md-9">
+                        <p>《计算机操作系统》-----黄水松</p>
+                        <p>计算机专业必读计算机专业必读计算机专业必读计算机专业必读计算机专业必读计算机专业必读计算机专业必读</p>
+                        <p><span><i class="fa fa-user"></i>祝一迪</span>
+                            <span><i class="fa fa-book"></i>一本</span>
+                            <span><i class="fa fa-clock-o"></i>2017/12/5/21:04</span>
+                        </p>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="rows">
+                    <div class="col-xs-12 col-md-3 book_img">
+                        <img src="img/book0.jpeg">
+                    </div>
+                    <div class="book_info col-xs-12 col-md-9">
+                        <p>《计算机操作系统》-----黄水松</p>
+                        <p>计算机专业必读计算机专业必读计算机专业必读计算机专业必读计算机专业必读计算机专业必读计算机专业必读</p>
+                        <p><span><i class="fa fa-user"></i>祝一迪</span>
+                            <span><i class="fa fa-book"></i>一本</span>
+                            <span><i class="fa fa-clock-o"></i>2017/12/5/21:04</span>
+                        </p>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div id="index_pingination">
+                    <ul class="pagination">
+                        <li><a href="#">&laquo;</a></li>
+                        <li class="pa_in"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="right1" class="col-xs-12 col-md-4">
+                <p class="index1_info">借阅与归还信息</p>
+                <hr>
+                <p class="index1_date">2017-08-07 17:33:36</p>
+                <p class="index1_con">祝一迪从祝一迪处借阅《计算机操作系统》</p>
+                <p class="index1_date">2017-08-07 17:33:36</p>
+                <p class="index1_con">祝一迪从祝一迪处借阅《计算机操作系统》</p>
+                <p class="index1_date">2017-08-07 17:33:36</p>
+                <p class="index1_con">祝一迪从祝一迪处借阅《计算机操作系统》</p>
+                <p class="index1_date">2017-08-07 17:33:36</p>
+                <p class="index1_con">祝一迪从祝一迪处借阅《计算机操作系统》</p>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+        <div style="clear:both"></div>
     </div>
 
     <footer>
@@ -80,6 +141,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/1.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>

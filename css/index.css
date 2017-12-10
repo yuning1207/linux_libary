@@ -165,46 +165,46 @@ a {
     padding-left: 0;
 }
 
-#left .book_info p {
+.book_info p {
     width: auto;
 }
 
-#left .book_info p:nth-of-type(1) {
+.book_info p:nth-of-type(1) {
     font-size: 24px;
     font-weight: bold;
     color: black;
     margin-bottom: 20px;
 }
 
-#left .book_info p:nth-of-type(2) {
+.book_info p:nth-of-type(2) {
     text-indent: 2em;
     font-size: 15px;
     color: black;
 }
 
-#left .book_info p:nth-of-type(3) {
+.book_info p:nth-of-type(3) {
     text-align: right;
     margin-top: 30px;
 }
 
-#left .book_info p:nth-of-type(3) span {
+.book_info p:nth-of-type(3) span {
     margin-left: 20px;
 }
 
-#left .book_info p:nth-of-type(3) span i {
+.book_info p:nth-of-type(3) span i {
     margin-right: 8px;
 }
 
 
 /* 分页 */
 
-#left #index_pingination {
+#index_pingination {
     background-color: transparent;
     margin: 0 auto;
     text-align: center;
 }
 
-#left #index_pingination .pa_in a {
+#index_pingination .pa_in a {
     background-color: #ddd;
 }
 
