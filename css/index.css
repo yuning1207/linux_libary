@@ -13,7 +13,6 @@ a {
 #hea {
     width: 100%;
     background-color: #f5f5f5;
-    position: relative;
 }
 
 #index_head {
@@ -27,14 +26,14 @@ a {
     display: inline-block;
     margin-left: 15px;
     font-size: 22px;
-    color: #444;
+    color: #555;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 #head:hover {
     text-decoration: none;
-    color: #111;
+    color: black;
 }
 
 #index_input input {
@@ -73,10 +72,7 @@ a {
     color: #444;
     font-size: 14px;
     padding: 5px 13px;
-    right: 80px;
     border: 1px solid transparent;
-    position: absolute;
-    top: 35%;
     transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
     -webkit-transition: 0.2s ease-in-out;
@@ -97,13 +93,13 @@ a {
 #main {
     width: 78%;
     margin: 20px auto;
+    opacity: .85;
 }
 
 #tag {
     width: 100%;
     height: auto;
     padding: 10px 10px;
-    opacity: 0.8;
     background-color: #F3F3F3;
     text-align: center;
     margin-bottom: 20px;
@@ -120,7 +116,7 @@ a {
 }
 
 #tag #tag_all {
-    color: #028654;
+    color: #009a61;
 }
 
 #tag #tag_all:hover {
