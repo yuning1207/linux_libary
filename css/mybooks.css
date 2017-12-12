@@ -36,6 +36,7 @@
 
 #head2 a:nth-of-type(1) {
     color: #5fb878;
+    border-bottom-color: #5fb878;
 }
 
 
@@ -64,20 +65,16 @@
     text-align: center;
 }
 
-#books_push,
+#books_push button,
 #borrow button {
     background-color: #009a61;
     color: white;
     margin: 20px 0;
 }
 
-#books_push,
+#books_push button:hover,
 #borrow button:hover {
     background-color: #006741;
-}
-
-#push {
-    display: none;
 }
 
 
@@ -85,4 +82,8 @@
 
 #borrow button {
     margin: 60px 0;
+}
+
+#borrow {
+    display: none;
 }
