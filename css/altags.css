@@ -33,11 +33,13 @@
     background-color: #f5f5f5;
     opacity: .85;
     padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
 #add h3 {
-    font-weight: bold;
+    font-weight: 500;
     margin-top: 10px;
+    font-size: 23px;
 }
 
 #add input {
@@ -53,4 +55,42 @@
 
 #add form {
     margin-top: 20px;
+}
+
+#alltags {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    opacity: .85;
+}
+
+#alltags #tags_head {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#alltags p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#alltags hr {
+    margin-top: 0;
+    border-top-color: #ccc;
+}
+
+#alltags ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 5px;
+}
+
+#alltags ul li a {
+    color: #017E66;
+    background-color: rgba(1, 126, 102, 0.15);
+    padding: 2px 6px;
+    font-size: 13px;
+}
+
+#alltags .rows>div {
+    padding-left: 0;
 }
