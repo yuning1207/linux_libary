@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link href="css/index1.css" rel="stylesheet">
+    <link href="css/pushbook.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,8 +30,83 @@
         </div>
     </header>
     <div id="main">
-
-
+        <p class="head">上传数据</p>
+        <hr>
+        <form>
+            <div class="rows" id="choose">
+                <div class="col-xs-12 col-md-4">
+                    <button class="btn btn-danger">选择文件</button>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <p>（未选择任何文件）</p>
+                    <p>您可以上传书本的图片</p>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="rows con">
+                <div class="col-xs-12 col-md-3">
+                    书名：
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <input type="text" required>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="rows con">
+                <div class="col-xs-12 col-md-3">
+                    作者：
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <input type="text" required>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="rows con">
+                <div class="col-xs-12 col-md-3">
+                    数量：
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <input type="text" required>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="rows con">
+                <div class="col-xs-12 col-md-3">
+                    所属分类：
+                </div>
+                <div class="col-xs-12 col-md-7">
+                    <input type="text" id="select_input" required>
+                    <select id="select" name="one" onchange="changeoption(this.selectedIndex)">
+                        <option>请选择</option>
+                        <option value="编程语言">编程语言</option>
+                        <option value="数据结构与算法">数据结构与算法</option>
+                        <option value="软件工程">软件工程</option>
+                        <option value="数据库">数据库</option>
+                        <option value="操作系统">操作系统</option>
+                        <option value="计算机网络">计算机网络</option>
+                        <option value="Web后台">Web后台</option>
+                        <option value="Web前端">Web前端</option>
+                        <option value="人工智能">人工智能</option>
+                        <option value="大数据与云计算">大数据与云计算</option>
+                        <option value="计算机底层分析与开发工具">计算机底层分析与开发工具</option>
+                        <option value="计算机安全">计算机安全</option>
+                        <option value="课本">课本</option>
+                    </select>
+                    <ul id="ul">
+                    </ul>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div class="rows con">
+                <div class="col-xs-12 col-md-3">
+                    描述：
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <textarea placeholder="请用简短的话来描述这本书，并指出适宜读的人群" cols="50" rows="5"></textarea>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </form>
     </div>
 
     <footer>
@@ -72,6 +148,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/canvas1.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/pushbooks.js"></script>
 </body>
 
 </html>
