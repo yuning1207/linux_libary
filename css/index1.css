@@ -94,6 +94,9 @@
     font-weight: bold;
 }
 
+
+/* 右侧 */
+
 #right1 {
     padding: 15px;
     background-color: #f3f3f3;
@@ -117,6 +120,11 @@
 .index1_con {
     color: #333;
     text-indent: 2em;
+}
+
+#right1 #index_pingination ul {
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width:1024px) {
