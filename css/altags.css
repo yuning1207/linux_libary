@@ -76,6 +76,7 @@
 #alltags hr {
     margin-top: 0;
     border-top-color: #ccc;
+    margin-bottom: 15px;
 }
 
 #alltags ul li {
@@ -91,6 +92,16 @@
     font-size: 13px;
 }
 
+#alltags ul li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #017E66;
+}
+
 #alltags .rows>div {
     padding-left: 0;
+}
+
+#alltags .rows>div>div {
+    margin-bottom: 30px;
 }
