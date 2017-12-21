@@ -43,7 +43,7 @@
             <a>大数据与云计算</a>
             <a>底层分析与开发工具</a>
             <a>教科书</a>
-            <a id="tag_all">全部标签</a>
+            <a id="tag_all" href="alltags.html">全部标签</a>
         </div>
         <div id="head2">
             <a>所上传的书</a>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-xs-12 col-md-2">
                     <button class="btn">下架图书</button>
-                    <button class="btn">修改信息</button>
+                    <button class="btn modify">修改信息</button>
                 </div>
                 <div style="clear:both"></div>
             </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-xs-12 col-md-2">
                     <button class="btn">下架图书</button>
-                    <button class="btn">修改信息</button>
+                    <button class="btn modify">修改信息</button>
                 </div>
                 <div style="clear:both"></div>
             </div>
@@ -122,6 +122,16 @@
             </div>
         </div>
     </div>
+    <div id="mask"></div>
+    <form id="box">
+        <h3>修改图书信息<img src="img/close_def.png" id="close"></h3>
+        <p>书名：<input type="text"></p>
+        <p>作者：<input type="text"></p>
+        <p>数量：<input type="text"></p>
+        <p>分类：<input type="text"><input type="text"></p>
+        <p>描述：<textarea cols="30" rows="2"></textarea></p>
+        <button>登录</button>
+    </form>
     <footer>
         <div class="rows">
             <div class="col-xs-6 col-md-3">

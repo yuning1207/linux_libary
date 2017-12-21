@@ -51,6 +51,10 @@
     margin: 30px 10% 0px 10%;
 }
 
+#main form>p:nth-last-of-type(1) {
+    text-align: right;
+}
+
 #main input {
     border: 1px solid #777;
     height: 30px;

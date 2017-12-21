@@ -45,6 +45,14 @@
     display: block;
 }
 
+#con button a {
+    color: white;
+}
+
+#con button a:hover {
+    text-decoration: none;
+}
+
 #con button:hover {
     background-color: #006741;
 }

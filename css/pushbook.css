@@ -88,3 +88,8 @@
     margin-top: 10px;
     cursor: pointer;
 }
+
+#main form>p {
+    text-align: right;
+    padding-right: 50px;
+}
