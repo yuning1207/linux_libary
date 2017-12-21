@@ -38,11 +38,6 @@
     margin-left: 50px;
 }
 
-#con div {
-    display: inline-block;
-    margin-left: 15%;
-}
-
 #con {
     padding: 20px 30px;
 }
@@ -60,18 +55,7 @@
     letter-spacing: 2px;
 }
 
-#con div textarea {
-    vertical-align: top;
-    width: 300px;
-    height: 50px;
-    outline: none;
-}
-
-#con>div>p:nth-last-of-type(2) {
-    border: 0;
-}
-
-#con>div>p:nth-last-of-type(1) {
+#con div>p:nth-last-of-type(1) {
     text-align: right;
     border: 0;
 }
