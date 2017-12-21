@@ -20,7 +20,9 @@ function pushselect() {
     var ul = document.getElementById("ul");
     var one = document.getElementById("one");
     var onelis = one.getElementsByTagName("li");
+
     input.onfocus = function() {
+
         con.style.display = "block";
         onelis[0].style.color = "white";
         onelis[0].style.backgroundColor = "#009A61";
@@ -29,6 +31,14 @@ function pushselect() {
             var text = document.createTextNode(two[0][i]);
             ul.appendChild(li);
             li.appendChild(text);
+        }
+        var lis = ul.getElementsByTagName("li");
+        for (var m = 0, len1 = lis.length; m < len1; m++) {
+            lis[m].onclick = function() {
+
+                var litext = this.innerHTML;
+                input.value += litext + '、';
+            }
         }
         for (var i = 0, len = onelis.length; i < len; i++) {
             (function() {
@@ -58,7 +68,7 @@ function pushselect() {
                 }
             })();
         }
-
+        con.focus();
     }
 
     con.onblur = function() {
